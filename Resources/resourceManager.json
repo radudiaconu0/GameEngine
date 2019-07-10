@@ -1,0 +1,58 @@
+{
+    "models": [
+       {
+          "@id": "1",
+          "path": "Resources/Models/croco.nfg"
+       },
+       {
+          "@id": "5",
+          "path": "Resources/Models/bila.nfg"
+       }
+    ],
+    "shaders": [
+       {
+          "@id": "10",
+          "vs": "Resources/Shaders/modelShader.vs",
+          "fs": "Resources/Shaders/modelShader.fs"
+       },
+       {
+          "@id": "3",
+          "vs": "Resources/Shaders/terrainShader.vs",
+          "fs": "Resources/Shaders/terrainShader.fs"
+       }
+    ],
+    "textures": [
+       {
+          "@id": "4",
+          "path": "Resources/Textures/croco.tga",
+          "min_filter": "LINEAR",
+          "mag_filter": "LINEAR",
+          "wrap_s": "CLAMP_TO_EDGE",
+          "wrap_t": "CLAMP_TO_EDGE"
+       },
+       {
+          "@id": "14",
+          "path": "Resources/Textures/dirt.tga",
+          "min_filter": "LINEAR",
+          "mag_filter": "LINEAR",
+          "wrap_s": "CLAMP_TO_EDGE",
+          "wrap_t": "CLAMP_TO_EDGE"
+       },
+       {
+          "@id": "15",
+          "path": "Resources/Textures/rock.tga",
+          "min_filter": "LINEAR",
+          "mag_filter": "LINEAR",
+          "wrap_s": "CLAMP_TO_EDGE",
+          "wrap_t": "CLAMP_TO_EDGE"
+       },
+       {
+          "@id": "5",
+          "path": "Resources/Textures/bus.tga",
+          "min_filter": "LINEAR",
+          "mag_filter": "LINEAR",
+          "wrap_s": "CLAMP_TO_EDGE",
+          "wrap_t": "CLAMP_TO_EDGE"
+       }
+    ]
+ }

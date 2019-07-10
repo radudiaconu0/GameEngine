@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  Shaders.cpp
+  NewTrainingFramework.cpp
+  Generating Code...
+NewTrainingFramework.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+LINK : fatal error LNK1207: incompatible PDB format in 'E:\Gameloft\Lab1\proiect_2015\NewTrainingFramework_2015\BIN-ATI\NewTrainingFramework.pdb'; delete and rebuild

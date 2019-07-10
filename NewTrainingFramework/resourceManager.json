@@ -1,0 +1,106 @@
+{
+   
+     "models": {
+       "model": [
+         {
+           "@id": "1",
+           "path": "../Resources/Models/croco.nfg"
+         },
+         {
+           "@id": "5",
+           "path": "../Resources/Models/Terrain.nfg"
+         },
+         {
+           "@id": "6",
+           "path": "../Resources/Models/Skybox.nfg"
+         }
+       ]
+     },
+     "shaders": {
+       "shader": [
+         {
+           "@id": "10",
+           "vs": "../Resources/Shaders/TriangleShaderVS.glsl",
+           "fs": "../Resources/Shaders/TriangleShaderFS.glsl"
+         },
+         {
+           "@id": "3",
+           "vs": "../Resources/Shaders/TerainShaderVS.glsl",
+           "fs": "../Resources/Shaders/TerainShaderFS.glsl"
+         },
+         {
+           "@id": "4",
+           "vs": "../Resources/Shaders/SkyboxVS.glsl",
+           "fs": "../Resources/Shaders/SkyboxFS.glsl"
+         }
+       ]
+     },
+     "textures": {
+       "texture": [
+         {
+           "@id": "4",
+           "@type": "2d",
+           "path": "../Resources/Textures/Croco.tga",
+           "min_filter": "LINEAR",
+           "mag_filter": "LINEAR",
+           "wrap_s": "CLAMP_TO_EDGE",
+           "wrap_t": "CLAMP_TO_EDGE"
+         },
+         {
+           "@id": "16",
+           "@type": "2d",
+           "path": "../Resources/Textures/Dirt.tga",
+           "min_filter": "LINEAR",
+           "mag_filter": "LINEAR",
+           "wrap_s": "REPEAT",
+           "wrap_t": "REPEAT"
+         },
+         {
+           "@id": "14",
+           "@type": "2d",
+           "path": "../Resources/Textures/Rock.tga",
+           "min_filter": "LINEAR",
+           "mag_filter": "LINEAR",
+           "wrap_s": "REPEAT",
+           "wrap_t": "REPEAT"
+         },
+         {
+           "@id": "5",
+           "@type": "2d",
+           "path": "../Resources/Textures/Bus.tga",
+           "min_filter": "LINEAR",
+           "mag_filter": "LINEAR",
+           "wrap_s": "REPEAT",
+           "wrap_t": "REPEAT"
+         },
+         {
+           "@id": "15",
+           "@type": "2d",
+           "path": "../Resources/Textures/Grass.tga",
+           "min_filter": "LINEAR",
+           "mag_filter": "LINEAR",
+           "wrap_s": "REPEAT",
+           "wrap_t": "REPEAT"
+         },
+         {
+           "@id": "10",
+           "@type": "2d",
+           "path": "../Resources/Textures/Terrain_blend_map.tga",
+           "min_filter": "LINEAR",
+           "mag_filter": "LINEAR",
+           "wrap_s": "REPEAT",
+           "wrap_t": "REPEAT"
+         },
+         {
+           "@id": "11",
+           "@type": "cube",
+           "path": "../Resources/Textures/envMap.tga",
+           "min_filter": "CLAMP_TO_EDGE",
+           "mag_filter": "CLAMP_TO_EDGE",
+           "wrap_s": "LINEAR",
+           "wrap_t": "LINEAR"
+         }
+       ]
+     }
+   }
+ 

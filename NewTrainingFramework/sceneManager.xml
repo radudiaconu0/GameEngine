@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sceneManager>
+
+	<backgroundColor>
+		<r>0.0</r>
+		<g>0.0</g>
+		<b>0.0</b>
+	</backgroundColor>
+	<fog> 
+		<color>
+			<r>1.0</r>
+			<g>1.0</g>
+			<b>1.0</b>
+		</color>
+		<r>25</r>
+		<R>30</R>
+	</fog>
+	<cameras>
+		<camera id="1">
+			<position>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</position>
+			<target>
+				<x>0</x>
+				<y>0</y>
+				<z>-1</z>
+			</target>
+			<up>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</up>
+			<translationSpeed>10</translationSpeed>
+			<rotationSpeed>0.3</rotationSpeed>
+			<fov>45</fov>
+			<near>0.2</near>
+			<far>10000</far>
+		</camera>
+		<!-- eventual si alte cameras -->
+	</cameras>
+	<activeCamera>1</activeCamera>
+
+	
+	<objects>
+		
+		
+	<object id="1">
+			<shader>3</shader><!-- id shader -->
+			<type>teren</type>
+			<name>Teren</name><!-- optional -->
+			<textures>
+				<texture id="10"/>
+				<texture id="14"/>
+				<texture id="15"/>
+				<texture id="16"/>
+				
+			</textures>
+			<position><!-- translatia -->
+				<x>0.0</x>
+				<y>0.0</y>
+				<z>0.0</z>
+			</position>
+			<rotation>
+				<x>0.0</x>
+				<y>0.0</y>
+				<z>0.0</z>
+			</rotation>
+			<scale>
+				<x>1.0</x>
+				<y>1.0</y>
+				<z>1.0</z>
+			</scale>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<nr_celule>20</nr_celule>
+			<dim_cel>8</dim_cel>
+			<offsetY>1</offsetY>
+			<model>generated</model>
+			<inaltimi>
+				<r>3</r>
+				<g>2</g>
+				<b>-1</b>
+			</inaltimi>
+		
+<!-- id model -->
+		</object>
+		<object id="2">
+			<shader>4</shader><!-- id shader -->
+			<type>skybox</type>
+			<name>Skybox</name><!-- optional -->
+			<textures>
+				<texture id="11"/>
+			</textures>
+			<position><!-- translatia -->
+				<x>0.0</x>
+				<y>0.0</y>
+				<z>0.0</z>
+			</position>
+			<rotation>
+				<x>3.1415926536</x>
+				<y>0.0</y>
+				<z>0.0</z>
+			</rotation>
+			<scale>
+				<x>1000</x>
+				<y>1000</y>
+				<z>1000</z>
+			</scale>
+			<followingCamera>
+				<ox/>
+				<oz/>
+			</followingCamera>
+			<model>6</model>		
+<!-- id model -->
+		</object>
+		<object id="3">
+			<shader>10</shader><!-- id shader -->
+			<type>normal</type>
+			<name>Croco</name><!-- optional -->
+			<textures>
+				<texture id="4"/>
+			</textures>
+			<position><!-- translatia -->
+				<x>0.0</x>
+				<y>-5.0</y>
+				<z>0.0</z>
+			</position>
+			<rotation>
+				<x>0.0</x>
+				<y>0.0</y>
+				<z>0.0</z>
+			</rotation>
+			<scale>
+				<x>0.05</x>
+				<y>0.05</y>
+				<z>0.05</z>
+			</scale>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<model>1</model>		
+		</object>
+		<object id="4">
+			<shader>5</shader><!-- id shader -->
+			<type>fire</type>
+			<name>Foc</name><!-- optional -->
+			<textures>
+				<texture id="20"/>
+				<texture id="21"/>
+				<texture id="22"/>
+			</textures>
+			<position><!-- translatia -->
+				<x>10.0</x>
+				<y>-15.0</y>
+				<z>0.0</z>
+			</position>
+			<rotation>
+				<x>0.0</x>
+				<y>0.0</y>
+				<z>0.0</z>
+			</rotation>
+			<scale>
+				<x>1.0</x>
+				<y>1.0</y>
+				<z>1.0</z>
+			</scale>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<model>7</model>		
+			<dispMax>0.2</dispMax>
+		</object>
+	</objects>
+	<ambientalLight>
+		<color>
+			<r>1.0</r>
+			<g>1.0</g>
+			<b>1.0</b>
+		</color>
+		<ratio>0.2</ratio>
+	</ambientalLight>
+	
+	<lights>
+		<light id="1">
+			<associatedObject>2</associatedObject>
+			<diffuseColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</diffuseColor>
+			<specularColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</specularColor>
+			<type>directional</type>
+			<direction>
+				<x>1.0</x>
+				<y>-1.0</y>
+				<z>1.0</z>
+			</direction>
+			<specPower>0.8</specPower>
+		</light>
+	</lights>
+	
+	<debugSettings>
+		<objectAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OYColor>
+			<OZColor>
+				<r>0.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</objectAxes>
+		<camAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</OYColor>
+			<OZColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</camAxes>
+	</debugSettings>
+	
+</sceneManager>

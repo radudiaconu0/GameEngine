@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug-Nvidia\) contains files shared from another project (NewTrainingFramework.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  SceneObject.cpp
+  NewTrainingFramework.vcxproj -> C:\Users\Radu Diaconu\Desktop\NewTrainingFramework_2015\\BIN-Nvidia\GameEngine.exe

@@ -1,0 +1,15 @@
+﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  TGA.cpp
+  Math.cpp
+C:\Users\Radu Diaconu\Desktop\NewTrainingFramework_2015\Utilities\Math.cpp(10,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Radu Diaconu\Desktop\NewTrainingFramework_2015\Utilities\Math.cpp(104,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+  esUtil_win.cpp
+C:\Users\Radu Diaconu\Desktop\NewTrainingFramework_2015\Utilities\Math.cpp(208,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Radu Diaconu\Desktop\NewTrainingFramework_2015\Utilities\esUtil_win.cpp(126,17): warning C4244:  'initializing': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  esUtil.cpp
+  esShader.cpp
+  Generating Code...
+C:\Users\Radu Diaconu\Desktop\NewTrainingFramework_2015\Utilities\esUtil_win.cpp(131,17): warning C4244:  'initializing': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  Utilities.vcxproj -> C:\Users\Radu Diaconu\Desktop\NewTrainingFramework_2015\\BIN-Nvidia\Utilities.lib
