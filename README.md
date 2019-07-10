@@ -1,2 +1,2 @@
 # GameEngine
- A simpel game engine using OpenGL
+ A simple game engine using OpenGL
